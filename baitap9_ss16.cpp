@@ -31,7 +31,8 @@ int main()
     }
 	
 	add_array(&arr_ptr, &n, index_value, add_location);
-	
+
+	printf("Mang sau khi them: ");
 	for(int i = 0; i < n; i++)
 	{
 		printf("%d ", *(arr_ptr + i));
